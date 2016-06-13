@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --hot",
-    "example": "babel-node"
+    "babel-node": "babel-node index"
   },
   "keywords": [],
   "author": "Kitti Boonchan",
   "license": "ISC",
   "dependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
     "react": "^15.0.2",
     "react-dom": "^15.0.2",
     "react-redux": "^4.4.5",
