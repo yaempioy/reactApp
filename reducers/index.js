@@ -7,7 +7,15 @@ import {
 } from '../actions/types'
 const { SHOW_ALL } = VisibilityFilters
 
-function todos(state = [], action) {
+const initialTodosState = [
+  {
+    id: 1,
+    text: 'Hello World',
+    completed: false
+  },
+]
+
+function todos(state = initialTodosState, action) {
   switch (action.type) {
     case ADD_TODO:
       return [
