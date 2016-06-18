@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --hot",
-    "babel-node": "babel-node index"
+    "babel": "babel-node index"
   },
   "keywords": [],
   "author": "Kitti Boonchan",
